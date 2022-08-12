@@ -101,8 +101,8 @@ body {
 }
 
 .panel-cards ul .card {
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 6.5rem;
+    height: 8.5rem;
     background-color: #2e3d49;
     border-radius: 1rem;
     cursor: pointer;
@@ -134,4 +134,12 @@ body {
 
 .panel-cards ul .card.active img {
     opacity: 1;
+}
+
+
+@media (min-width: 1024px) {
+    .panel-cards ul .card {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
 }
