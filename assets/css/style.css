@@ -57,8 +57,15 @@ body {
     align-items: center;
 }
 
+
 .panel-score .stars svg {
     width: 1.5rem;
+}
+
+.panel-score .stars img{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .panel-score .timer {
@@ -117,6 +124,11 @@ body {
 
 .panel-cards ul .card.active {
     background-color: lightblue;
+}
+
+.panel-cards ul .card.disable{
+    pointer-events: none;
+    cursor: default;
 }
 
 
