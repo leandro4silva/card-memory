@@ -150,27 +150,27 @@ export default function () {
 
         switch(stars){
             case 0: 
-                star01.src = '/assets/icon/control/star-outline.svg'
-                star02.src = '/assets/icon/control/star-outline.svg'
-                star03.src = '/assets/icon/control/star-outline.svg'
+                star01.src = './assets/icon/control/star-outline.svg'
+                star02.src = './assets/icon/control/star-outline.svg'
+                star03.src = './assets/icon/control/star-outline.svg'
             break;
 
             case 1: 
-                star01.src = '/assets/icon/control/star.svg'
-                star02.src = '/assets/icon/control/star-outline.svg'
-                star03.src = '/assets/icon/control/star-outline.svg'
+                star01.src = './assets/icon/control/star.svg'
+                star02.src = './assets/icon/control/star-outline.svg'
+                star03.src = './assets/icon/control/star-outline.svg'
             break;
 
             case 2: 
-                star01.src = '/assets/icon/control/star.svg'
-                star02.src = '/assets/icon/control/star.svg'
-                star03.src = '/assets/icon/control/star-outline.svg'
+                star01.src = './assets/icon/control/star.svg'
+                star02.src = './assets/icon/control/star.svg'
+                star03.src = './assets/icon/control/star-outline.svg'
             break;
 
             case 3: 
-                star01.src = '/assets/icon/control/star.svg'
-                star02.src = '/assets/icon/control/star.svg'
-                star03.src = '/assets/icon/control/star.svg'
+                star01.src = './assets/icon/control/star.svg'
+                star02.src = './assets/icon/control/star.svg'
+                star03.src = './assets/icon/control/star.svg'
             break;
             
         }
