@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memoria</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Jogo da Memoria</h1>
+            <div class="panel-score">
+                <ul class="stars">
+                    <li>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 329.942 329.942"
+                            style="enable-background:new 0 0 329.942 329.942;" xml:space="preserve">
+                            <path id="XMLID_16_" d="M329.208,126.666c-1.765-5.431-6.459-9.389-12.109-10.209l-95.822-13.922l-42.854-86.837
+                            c-2.527-5.12-7.742-8.362-13.451-8.362c-5.71,0-10.925,3.242-13.451,8.362l-42.851,86.836l-95.825,13.922
+                            c-5.65,0.821-10.345,4.779-12.109,10.209c-1.764,5.431-0.293,11.392,3.796,15.377l69.339,67.582L57.496,305.07
+                            c-0.965,5.628,1.348,11.315,5.967,14.671c2.613,1.899,5.708,2.865,8.818,2.865c2.387,0,4.784-0.569,6.979-1.723l85.711-45.059
+                            l85.71,45.059c2.208,1.161,4.626,1.714,7.021,1.723c8.275-0.012,14.979-6.723,14.979-15c0-1.152-0.13-2.275-0.376-3.352
+                            l-16.233-94.629l69.339-67.583C329.501,138.057,330.972,132.096,329.208,126.666z" />
+                        </svg>
+                    </li>
+                    <li>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 329.942 329.942"
+                            style="enable-background:new 0 0 329.942 329.942;" xml:space="preserve">
+                            <path id="XMLID_16_" d="M329.208,126.666c-1.765-5.431-6.459-9.389-12.109-10.209l-95.822-13.922l-42.854-86.837
+                            c-2.527-5.12-7.742-8.362-13.451-8.362c-5.71,0-10.925,3.242-13.451,8.362l-42.851,86.836l-95.825,13.922
+                            c-5.65,0.821-10.345,4.779-12.109,10.209c-1.764,5.431-0.293,11.392,3.796,15.377l69.339,67.582L57.496,305.07
+                            c-0.965,5.628,1.348,11.315,5.967,14.671c2.613,1.899,5.708,2.865,8.818,2.865c2.387,0,4.784-0.569,6.979-1.723l85.711-45.059
+                            l85.71,45.059c2.208,1.161,4.626,1.714,7.021,1.723c8.275-0.012,14.979-6.723,14.979-15c0-1.152-0.13-2.275-0.376-3.352
+                            l-16.233-94.629l69.339-67.583C329.501,138.057,330.972,132.096,329.208,126.666z" />
+                        </svg>
+                    </li>
+                    <li>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 329.942 329.942"
+                            style="enable-background:new 0 0 329.942 329.942;" xml:space="preserve">
+                            <path id="XMLID_16_" d="M329.208,126.666c-1.765-5.431-6.459-9.389-12.109-10.209l-95.822-13.922l-42.854-86.837
+                            c-2.527-5.12-7.742-8.362-13.451-8.362c-5.71,0-10.925,3.242-13.451,8.362l-42.851,86.836l-95.825,13.922
+                            c-5.65,0.821-10.345,4.779-12.109,10.209c-1.764,5.431-0.293,11.392,3.796,15.377l69.339,67.582L57.496,305.07
+                            c-0.965,5.628,1.348,11.315,5.967,14.671c2.613,1.899,5.708,2.865,8.818,2.865c2.387,0,4.784-0.569,6.979-1.723l85.711-45.059
+                            l85.71,45.059c2.208,1.161,4.626,1.714,7.021,1.723c8.275-0.012,14.979-6.723,14.979-15c0-1.152-0.13-2.275-0.376-3.352
+                            l-16.233-94.629l69.339-67.583C329.501,138.057,330.972,132.096,329.208,126.666z" />
+                        </svg>
+                    </li>
+                </ul>
+                <div class="timer">
+                    <span id="minutes">00</span>
+                    <span>:</span>
+                    <span id="secunds">00</span>
+                </div>
+                <div class="moves">
+                    <span>0</span>
+                    <h4>Tentativas</h4>
+                </div>
+                <div class="reset">
+                    <button>
+                        <svg width="21px" height="21px" viewBox="0 0 24 15" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" transform="matrix(0 1 1 0 2.5 2.5)">
+                                <path
+                                    d="m3.98652376 1.07807068c-2.38377179 1.38514556-3.98652376 3.96636605-3.98652376 6.92192932 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8" />
+                                <path d="m4 1v4h-4" transform="matrix(1 0 0 -1 0 6)" />
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel-cards">
+                <ul>
+                    <li class="card" id="card01"><img id="imgCard01" src=""><img src="" alt=""></li>
+                    <li class="card" id="card02"><img id="imgCard02" src="" alt=""></li>
+                    <li class="card" id="card03"><img id="imgCard03" src="" alt=""></li>
+                    <li class="card" id="card04"><img id="imgCard04" src="" alt=""></li>
+                    <li class="card" id="card05"><img id="imgCard05" src="" alt=""></li>
+                    <li class="card" id="card06"><img id="imgCard06" src="" alt=""></li>
+                    <li class="card" id="card07"><img id="imgCard07" src="" alt=""></li>
+                    <li class="card" id="card08"><img id="imgCard08" src="" alt=""></li>
+                    <li class="card" id="card09"><img id="imgCard09" src="" alt=""></li>
+                    <li class="card" id="card10"><img id="imgCard10" src="" alt=""></li>
+                    <li class="card" id="card11"><img id="imgCard11" src="" alt=""></li>
+                    <li class="card" id="card12"><img id="imgCard12" src="" alt=""></li>
+                    <li class="card" id="card13"><img id="imgCard13" src="" alt=""></li>
+                    <li class="card" id="card14"><img id="imgCard14" src="" alt=""></li>
+                    <li class="card" id="card15"><img id="imgCard15" src="" alt=""></li>
+                    <li class="card" id="card16"><img id="imgCard16" src="" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
